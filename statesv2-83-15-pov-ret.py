@@ -36,7 +36,7 @@ def update_figure(selected_Year):
             y=df_by_Region['POVTP79'],
             text=df_by_Region['State'],
             mode='markers',
-            opacity=0.7,
+            opacity=0.8,
             marker={
                 'size': 15,
                 'line': {'width': 0.5, 'color': 'white'}
